@@ -18,13 +18,7 @@
   color: var(--black);
 }
 
-/* Common mixins */
-
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
+/* Common block for Header and Footer */
 
 .logo {
   width: 183px;
@@ -34,7 +28,7 @@
   background-position: center;
 }
 
-/* Mixins for Digits and Kaufman */
+/* Common blocks for Digits and Kaufman */
 
 .section-title {
   width: 60%;
@@ -62,6 +56,8 @@
   flex-wrap: wrap;
   width: 1100px;
   margin: 0 auto 100px auto;
+  padding: 0;
+  list-style: none;
 }
 
 .table__cell {
@@ -92,7 +88,7 @@
 .header {
   position: relative;
   display: flex;
-  height: 100vh; /* зачем растягивать header на весь veiwport? */
+  height: 100vh;
   min-height: 600px;
   max-height: 756px;
   background-color: var(--grey-light);
@@ -139,7 +135,7 @@
   right: 0;
   bottom: 0;
   z-index: 1;
-  width: 765px; /* по PerfectPixel другие пропорции у иллюстрации */
+  width: 765px;
   height: 608px;
 }
 
@@ -344,18 +340,18 @@
   flex-direction: column;
 }
 
-/* asd */
-
 .footer__column-heading {
   margin: 0;
   padding: 0;
-  line-height: 30px; /* по PerfectPixel лучше выставить 25px */
+  line-height: 30px;
   font-size: 18px;
   font-weight: bold;
 }
 
 .footer__column-links {
   margin: 20px 0 16px 0;
+  padding: 0;
+  list-style: none;
 }
 
 .footer__column-link {
