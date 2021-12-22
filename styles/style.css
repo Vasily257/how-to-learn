@@ -89,7 +89,7 @@
   position: absolute;
   top: 30px;
   left: 64px;
-  background-image: url(/images/logo_place_header.svg);
+  background-image: url(./images/logo_place_header.svg);
 }
 
 .header__title {
@@ -302,7 +302,7 @@
   z-index: 0;
   width: 877px;
   height: 877px;
-  background-image: url(/images/kaufman-triangle.svg);
+  background-image: url(./images/kaufman-triangle.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -335,7 +335,7 @@
 .logo_place_footer {
   width: 183px;
   height: 35px;
-  background-image: url(/images/logo_place_footer.svg);
+  background-image: url(./images/logo_place_footer.svg);
 }
 
 .footer__author {
