@@ -267,24 +267,26 @@
   overflow: hidden;
   padding-top: 90px;
   background-color: #1f1f1f;
-  color: #ffffff;
 }
 
 .section-title_theme_dark {
   position: relative;
   z-index: 1;
   margin: 0 auto 20px;
+  color: #ffffff;
 }
 
 .section-subtitle_theme_dark {
   position: relative;
   z-index: 1;
+  color: #ffffff;
 }
 
 .table_theme_dark {
   position: relative;
   z-index: 1;
   margin: 0 auto 90px;
+  color: #ffffff;
 }
 
 .table__cell_theme_dark {
