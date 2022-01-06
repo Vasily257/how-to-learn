@@ -1,0 +1,8 @@
+.techniques {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+  background-color: #ffffff;
+}
+
+/* Разобраться с width: 80% и другими несостыковками PP. */

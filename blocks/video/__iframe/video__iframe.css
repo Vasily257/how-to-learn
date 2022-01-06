@@ -1,0 +1,8 @@
+.video__iframe {
+  box-sizing: border-box;
+  width: 515px;
+  height: 316px;
+  object-fit: cover;
+  object-position: center;
+  border: none;
+}
