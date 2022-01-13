@@ -1,5 +1,5 @@
 .video__iframe {
-  box-sizing: border-box;
+  display: block;
   width: 515px;
   height: 316px;
   object-fit: cover;
